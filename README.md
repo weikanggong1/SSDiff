@@ -120,8 +120,7 @@ python inference.py --data_dir /path/to/your/data --ckpt_path /path/to/checkpoin
 - **Reproducibility**: All random seeds are fixed in the code. However, due to non‑deterministic CUDA operations, slight numerical variations may occur.
 
 ---
-
 ## 📧 Contact
 
 For questions or issues, please open a GitHub issue or contact the corresponding author at weikanggong@fudan.edu.cn.
-```
+
