@@ -33,7 +33,7 @@ The preprocessing runs a standard dtifit to generate FA, and used FA to register
 ## Model Training
 
 ```bash
-python train.py
+torchrun --nproc-per-node=1 train.py
 ```
 
 Key options:
