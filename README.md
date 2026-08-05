@@ -26,11 +26,14 @@ pip install -r requirements.txt
 
 ## 🚀 Getting Started
 
-Clone the repository and install dependencies:
+Clone the repository and install dependencies, create new conda env:
 
 ```bash
 git clone https://github.com/weikanggong1/SSDiff
 cd SSDiff
+conda create -n ssdiff python=3.10 -y
+conda activate ssdiff
+pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126
 pip install -r requirements.txt
 ```
 
