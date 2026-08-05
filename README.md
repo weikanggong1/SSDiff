@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 ## 🚀 Getting Started
 
-Clone the repository and install dependencies, create new conda env, install PyTorch based on your system, and finally install required library:
+Clone the repository and install dependencies, create new conda env, install PyTorch based on your system (default uses CUDA 12.6; adjust the cu126 suffix to match your CUDA version, e.g., cu118 or cu121), and finally install required library:
 
 ```bash
 git clone https://github.com/weikanggong1/SSDiff
