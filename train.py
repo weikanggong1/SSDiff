@@ -130,7 +130,7 @@ lr_scheduler = CosineAnnealingWarmupRestarts(optimizer,first_cycle_steps=int(nep
                                             min_lr=0.00001,
                                             warmup_steps=int(5 * len(loader_train)/accumulation_steps),
                                             gamma=1.0)
-
+os.system(f'mkdir ./ckpt/')
 loss_train = []
 loss_test = []
 for ep in range(0, nepoch):

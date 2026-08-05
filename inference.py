@@ -108,6 +108,7 @@ with torch.no_grad():
 #save results
 df = pd.DataFrame(feas, columns=[f'Comp_{i+1}' for i in range(feas.shape[1])])
 df.insert(0, 'eid', all_id)    
+os.system(f'mkdir ./inference/')
 df.to_csv('./inference/all_features.csv', index=False)
 
 
