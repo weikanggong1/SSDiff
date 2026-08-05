@@ -1,0 +1,6 @@
+numpy==1.26.4
+scipy==1.11.4
+einops==0.8.2
+nibabel==5.4.0
+pandas==2.2.3
+joblib==1.2.0
