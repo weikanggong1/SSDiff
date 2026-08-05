@@ -36,3 +36,12 @@ Key options:
 ```
 
 ## Model Evaluation
+```bash
+python inference.py
+```
+
+Key options:
+
+```
+
+```
