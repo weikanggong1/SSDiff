@@ -33,7 +33,7 @@ git clone https://github.com/weikanggong1/SSDiff
 cd SSDiff
 conda create -n ssdiff python=3.10 -y
 conda activate ssdiff
-pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
 pip install -r requirements.txt
 ```
 
