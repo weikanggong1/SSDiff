@@ -1,6 +1,6 @@
 # SSDiff
 
-A foundation model for efficient data-driven characterization of brain microstructure from diffusion MRI
+**A foundation model for efficient data-driven characterization of brain microstructure from diffusion MRI**
 
 This repository contains a clean implementation of the
 **SSdiff** architecture and a runnable training pipeline on example
