@@ -118,7 +118,7 @@ python inference.py --data_dir /path/to/your/data --ckpt_path /path/to/checkpoin
 
 ## 📝 Important Notes
 
-- **FSL Environment**: Ensure that FSL is properly installed and the environment variables (`FSLDIR`, `PATH`, etc.) are sourced before running `data_preprocessing.py`. For example, add the following to your `~/.bashrc`:
+- **FSL Environment**: Ensure that FSL is properly installed and the environment variables (`FSLDIR`, `PATH`, etc.) are sourced before running `data_preprocessing.py`.
 - **GPU Memory**: The model requires a GPU with at least 24 GB of memory for full‑size inference; memory usage can be reduced by lowering `embed_dim` or `depth` for exploratory runs.
 - **Reproducibility**: All random seeds are fixed in the code. However, due to non‑deterministic CUDA operations, slight numerical variations may occur.
 
