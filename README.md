@@ -1,7 +1,7 @@
 # SSDiff: A Foundation Model for Efficient Data-Driven Characterization of Brain Microstructure from Diffusion MRI
 
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/)
-[![PyTorch 2.0+](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org)
+[![PyTorch 2.5+](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 **SSDiff** is a transformer-based foundation model designed to extract rich feature representations from diffusion-weighted MRI (dMRI) data. It leverages a self‑supervised pretraining paradigm and operates directly on voxel-wise diffusion signals, enabling efficient and generalizable characterization of brain microstructure.
