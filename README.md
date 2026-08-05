@@ -14,7 +14,7 @@
 - **Python** ≥ 3.10  
 - **CUDA** ≥ 11.8 (recommended for GPU acceleration)  
 - **FSL** ≥ 6.0.7.4 (required for data preprocessing)  
-- **PyTorch** ≥ 2.5.0 (with `torch.distributed` support)  
+- **PyTorch** ≥ 2.5.0 (with torch.distributed support)  
 
 All Python dependencies are listed in [`requirements.txt`](requirements.txt) and can be installed via:
 
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 ## 🚀 Getting Started
 
-Clone the repository and install dependencies, create new conda env:
+Clone the repository and install dependencies, create new conda env, install PyTorch based on your system, and finally install required library:
 
 ```bash
 git clone https://github.com/weikanggong1/SSDiff
