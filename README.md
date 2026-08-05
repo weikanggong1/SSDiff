@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 ### Input Data Structure
 
-Place your subject‑wise dMRI data in the `./data/` directory. Each subject folder must contain three files:
+Place your subject‑wise dMRI data in the `./data/` directory (example [data](https://drive.google.com/file/d/1C3d7yMaIHW9VBzgauBgVnmgi-_q4iI0e/view?usp=sharing)). Each subject folder must contain three files:
 
 ```
 ./data/
@@ -101,7 +101,7 @@ torchrun --nproc-per-node=1 train.py
 
 ## 🔍 Feature Extraction & Inference
 
-Download the pretrained model [checkpoint]() and place it in `./ckpt/ssdiff_pretrain.pth`. Then run inference to extract 1536‑dimensional feature vectors per subject:
+Download the pretrained model [checkpoint](https://drive.google.com/file/d/1k-s_zQAzwojUVwyeEcJWIfAenUGj4WbQ/view?usp=sharing) and place it in `./ckpt/ssdiff_pretrain.pth`. Then run inference to extract 1536‑dimensional feature vectors per subject:
 
 ```bash
 python inference.py
