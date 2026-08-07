@@ -75,7 +75,7 @@ python data_preprocessing.py
 
 **Outputs** (per subject, saved in the same folder):
 - `data_nonlinear_2mm.npy` – warped dMRI signals in MNI space (voxels × shells)
-- `bvals.npy` / `bvecs.npy` – rounded b‑values and reoriented b‑vectors
+- `bvals.npy` / `bvecs.npy` – rounded b‑values and normalized b‑vectors
 - `warp_nonlin_diffusion_2mm.npy` – spatial warping parameters (voxel‑wise deformation gradients)
 
 Processing may take several minutes per subject depending on data size and system resources. The script runs in parallel using `joblib` (set `-ncpu` to control concurrency).
@@ -111,7 +111,7 @@ The output CSV file (`all_features.csv`) will be saved in the `./inference/` fol
 
 **Customizing inference**:
 ```bash
-python inference.py --data_dir /path/to/your/data --ckpt_path /path/to/checkpoint.pth
+python inference.py -data_dir /path/to/your/data -ckpt_path /path/to/checkpoint.pth
 ```
 
 ---
